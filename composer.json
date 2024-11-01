@@ -1,0 +1,15 @@
+{
+    "name": "im4all/wpgamp",
+    "authors": [
+        {
+            "name": "Hadi",
+            "email": "me@habibhadi.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WpGmap\\": "src/"
+        }
+    }
+}

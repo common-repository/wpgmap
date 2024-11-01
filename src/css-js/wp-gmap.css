@@ -1,0 +1,94 @@
+.wp-gmap-form-columns {
+    display: flex;
+}
+
+.wp-gmap-form-column {
+    width: 50%;
+}
+
+.has-padding-right {
+    padding-right: 20px;
+}
+
+#wp-gmap-draw {
+    height: 600px;
+}
+
+#wp-gmap-markings {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.wp-gmap-marker {
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    background: #fff;
+    padding: 20px 20px 10px;
+}
+
+.wp-gmap-marker.active {
+    background-color: #f0f6fc;
+    border-color: rgb(114, 174, 230);
+}
+
+.wp-gmap-marker-label {
+    font-weight: bold;
+}
+
+.wp-gmap-marker-body-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.wp-gmap-marker-body-list-item.is-full {
+    grid-column: span 2;
+}
+
+.wp-gmap-marker-body-list-item-name {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.wp-gmap-marker-body-list-item input,
+.wp-gmap-marker-body-list-item select {
+    width: 100%;
+}
+
+.wp-gmap-button-submit {
+    display: none;
+}
+
+.wp-gmap-marker-preview {
+    float: right;
+    margin-right: 10px !important;
+}
+
+.wp-gmap-marker-remove {
+    float: right;
+}
+
+.wpgmap-legend-list {
+    margin-top: 0;
+}
+
+.wpgmap-disabled {
+    pointer-events: none;
+    background: #f0f0f1 !important;
+    color: #777 !important;
+    cursor: not-allowed;
+}
+
+.remove-legend {
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 6px;
+    color: #DC3232;
+    cursor: pointer;
+}
+
+.is-color-success {
+    color: green !important;
+}
